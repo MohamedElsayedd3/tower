@@ -1,1 +1,231 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#0a0e1f">
+<meta name="description" content="Privacy Policy for the Tower Challenge game.">
+<title>سياسة الخصوصية | Privacy Policy — Tower Challenge</title>
+<style>
+  :root{
+    --neon:#35e0ff; --blue:#2f7dff; --gold:#ffc53d; --red:#ff4d67;
+    --ink:#eaf3ff; --ink-dim:#9db0e0; --ink-faint:#6b7ead;
+    --glass-brd:rgba(144,178,255,.17);
+    --bg:#0a0e1f;
+    --font:'Segoe UI',system-ui,-apple-system,'Noto Kufi Arabic',Tahoma,Roboto,sans-serif;
+  }
+  *{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+  html,body{margin:0;padding:0}
+  body{
+    font-family:var(--font);
+    background:var(--bg);
+    color:var(--ink);
+    line-height:1.75;
+    min-height:100vh;
+    background-image:
+      radial-gradient(60% 40% at 15% 0%,rgba(53,224,255,.16),transparent 70%),
+      radial-gradient(55% 40% at 90% 12%,rgba(124,92,255,.16),transparent 70%),
+      radial-gradient(70% 50% at 50% 100%,rgba(255,197,61,.07),transparent 70%);
+    background-attachment:fixed;
+  }
+  .wrap{max-width:720px;margin:0 auto;padding:calc(20px + env(safe-area-inset-top,0px)) 20px calc(48px + env(safe-area-inset-bottom,0px))}
 
+  header.top{display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin-bottom:26px}
+  .titles{flex:1;min-width:180px}
+  h1{margin:0;font-size:24px;font-weight:900;letter-spacing:.2px;
+     background:linear-gradient(180deg,#fff,var(--neon));
+     -webkit-background-clip:text;background-clip:text;color:transparent}
+  .sub{margin:2px 0 0;font-size:12.5px;color:var(--ink-faint);font-weight:700}
+
+  .lang-btn{
+    appearance:none;border:1px solid var(--glass-brd);cursor:pointer;
+    background:rgba(21,29,62,.7);color:var(--ink);
+    padding:11px 16px;border-radius:14px;font-family:inherit;
+    font-size:13px;font-weight:800;transition:.15s;
+  }
+  .lang-btn:active{transform:scale(.95)}
+  .lang-btn:hover{background:rgba(47,125,255,.28);border-color:rgba(144,178,255,.4)}
+
+  .card{
+    background:linear-gradient(180deg,rgba(21,29,62,.66),rgba(10,14,34,.72));
+    border:1px solid var(--glass-brd);
+    border-radius:22px;padding:26px 22px;margin-bottom:16px;
+    box-shadow:inset 0 1px 0 rgba(255,255,255,.08),0 18px 40px rgba(0,0,0,.4);
+  }
+  .updated{
+    display:inline-block;font-size:11.5px;font-weight:800;
+    color:var(--gold);background:rgba(255,197,61,.12);
+    border:1px solid rgba(255,197,61,.26);
+    padding:5px 12px;border-radius:999px;margin-bottom:6px;
+  }
+  section{margin-top:22px}
+  h2{
+    display:flex;align-items:center;gap:10px;
+    margin:0 0 8px;font-size:17px;font-weight:900;color:#fff;
+  }
+  h2 .n{
+    flex:0 0 auto;display:inline-flex;align-items:center;justify-content:center;
+    width:28px;height:28px;border-radius:9px;font-size:13.5px;font-weight:900;color:#0a0e1f;
+    background:linear-gradient(180deg,var(--neon),var(--blue));
+  }
+  section p{margin:0;color:var(--ink-dim);font-size:14.5px}
+  a{color:var(--neon);text-decoration:none;word-break:break-word;font-weight:700}
+  a:hover{text-decoration:underline}
+  .links{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}
+  .links a{
+    display:inline-flex;align-items:center;gap:6px;
+    font-size:13px;padding:7px 13px;border-radius:12px;
+    background:rgba(47,125,255,.16);border:1px solid rgba(144,178,255,.3);
+  }
+  .foot{margin-top:26px;text-align:center;color:var(--ink-faint);font-size:12px;font-weight:600}
+
+  [hidden]{display:none !important}
+  @media (max-width:420px){
+    h1{font-size:21px}
+    .card{padding:22px 17px;border-radius:19px}
+    section p{font-size:14px}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header class="top">
+    <div class="titles">
+      <h1 data-i18n="title">سياسة الخصوصية</h1>
+      <p class="sub">Tower Challenge</p>
+    </div>
+    <button class="lang-btn" id="langBtn" type="button" aria-label="Switch language">English</button>
+  </header>
+<!-- ======================= ARABIC ======================= -->
+  <div id="ar" lang="ar" dir="rtl">
+    <div class="card">
+      <span class="updated" data-i18n="updated">آخر تحديث: أكتوبر 2026</span>
+
+      <section>
+        <h2><span class="n">1</span><span>نظرة عامة</span></h2>
+        <p>لعبة Tower Challenge بلا تسجيل دخول وبلا خوادم، واللعب بدون إنترنت. لا نطلب منك أي معلومة شخصية.</p>
+      </section>
+
+      <section>
+        <h2><span class="n">2</span><span>ما نجمعه</span></h2>
+        <p>لا نجمع أي بيانات شخصية، ولا نستخدم أدوات تحليل أو تتبّع أو إبلاغ بالأعطال.</p>
+      </section>
+
+      <section>
+        <h2><span class="n">3</span><span>ما يُحفظ على جهازك</span></h2>
+        <p>أفضل نتيجة، أعلى طابق، حالة الصوت والاهتزاز، واللغة — تُحفظ محليًا على جهازك ولا تغادره. تحذفها بزر «تصفير أفضل نتيجة» في الإعدادات أو بمسح بيانات التطبيق.</p>
+      </section>
+
+      <section>
+        <h2><span class="n">4</span><span>الإعلانات (Google AdMob)</span></h2>
+        <p>تظهر الإعلانات فقط داخل التطبيق — ونسخة الموقع بلا إعلانات — وتقدّمها Google AdMob التي تجمع معرّف الإعلانات ومعلومات الجهاز لعرضها وفق سياستها: <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">سياسة Google في الخصوصية</a>. يمكنك التحكم بها من إعدادات الخصوصية في جهازك، وإذن الإنترنت يُستخدم لتحميل الإعلانات فقط.</p>
+      </section>
+
+      <section>
+        <h2><span class="n">5</span><span>مشاركة البيانات</span></h2>
+        <p>لا نبيع بياناتك ولا نشاركها مع أي جهة. الجهة الوحيدة التي تصلها بيانات إعلانية هي Google وفق البند السابق.</p>
+      </section>
+
+      <section>
+        <h2><span class="n">6</span><span>خصوصية الأطفال</span></h2>
+        <p>لا نجمع عن قصد أي بيانات من الأطفال، ووجود الإعلانات لا يعني جمع أي معلومات عنهم.</p>
+      </section>
+
+      <section>
+        <h2><span class="n">7</span><span>حقوقك والتواصل</span></h2>
+        <p>تحذف كل ما هو محفوظ بالطريقة الواردة في البند 3. لأي استفسار راسلنا من هنا:</p>
+        <div class="links">
+          <a href="https://t.me/mohamedabdelfattah4" target="_blank" rel="noopener noreferrer">تيليجرام</a>
+          <a href="https://whatsapp.com/channel/0029VaPpfcfInlqRDafgPD2Y" target="_blank" rel="noopener noreferrer">واتساب</a>
+          <a href="https://linktr.ee/mohamedabdelfattah" target="_blank" rel="noopener noreferrer">الموقع</a>
+        </div>
+        <p style="margin-top:10px">قد نحدّث هذه السياسة، ويُنشر أي تغيير داخل اللعبة وعلى هذه الصفحة.</p>
+      </section>
+    </div>
+    <p class="foot">© Tower Challenge</p>
+  </div>
+
+  <!-- ======================= ENGLISH ======================= -->
+  <div id="en" lang="en" dir="ltr" hidden>
+    <div class="card">
+      <span class="updated" data-i18n="updated">Last updated: October 2026</span>
+
+      <section>
+        <h2><span class="n">1</span><span>Overview</span></h2>
+        <p>Tower Challenge has no sign-in and no servers, and it plays offline. We never ask you for any personal information.</p>
+      </section>
+
+      <section>
+        <h2><span class="n">2</span><span>What We Collect</span></h2>
+        <p>We collect no personal data, and we use no analytics, tracking or crash-reporting tools.</p>
+      </section>
+
+      <section>
+        <h2><span class="n">3</span><span>What Is Stored on Your Device</span></h2>
+        <p>Your best score, highest floor, sound and vibration settings, and language — saved locally on your device and never leaving it. Delete them any time from &ldquo;Reset Best Score&rdquo; in Settings or by clearing the app&rsquo;s data.</p>
+      </section>
+<section>
+        <h2><span class="n">4</span><span>Advertising (Google AdMob)</span></h2>
+        <p>Ads appear only inside the app — the website version has no ads — and are served by Google AdMob, which collects your advertising ID and the device data needed to deliver them under Google&rsquo;s policy: <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Privacy Policy</a>. You can manage them from your device&rsquo;s privacy settings, and the Internet permission is used only to load ads.</p>
+      </section>
+
+      <section>
+        <h2><span class="n">5</span><span>Data Sharing</span></h2>
+        <p>We do not sell your data and share it with no one. The only party that receives advertising data is Google, as described above.</p>
+      </section>
+
+      <section>
+        <h2><span class="n">6</span><span>Children&rsquo;s Privacy</span></h2>
+        <p>We do not knowingly collect any data from children, and the presence of ads does not mean we collect information about them.</p>
+      </section>
+
+      <section>
+        <h2><span class="n">7</span><span>Your Rights and Contact</span></h2>
+        <p>Delete everything stored using the method in section 3. For any question, reach us from here:</p>
+        <div class="links">
+          <a href="https://t.me/mohamedabdelfattah4" target="_blank" rel="noopener noreferrer">Telegram</a>
+          <a href="https://whatsapp.com/channel/0029VaPpfcfInlqRDafgPD2Y" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+          <a href="https://linktr.ee/mohamedabdelfattah" target="_blank" rel="noopener noreferrer">Website</a>
+        </div>
+        <p style="margin-top:10px">We may update this policy; any change is posted in the game and on this page.</p>
+      </section>
+    </div>
+    <p class="foot">© Tower Challenge</p>
+  </div>
+
+</div>
+
+<script>
+  (function () {
+    var html = document.documentElement;
+    var ar = document.getElementById('ar');
+    var en = document.getElementById('en');
+    var btn = document.getElementById('langBtn');
+    var titles = { ar: 'سياسة الخصوصية | Privacy Policy — Tower Challenge', en: 'Privacy Policy | سياسة الخصوصية — Tower Challenge' };
+
+    function setLang(l) {
+      var isAr = l === 'ar';
+      html.lang = l;
+      html.dir = isAr ? 'rtl' : 'ltr';
+      ar.hidden = !isAr;
+      en.hidden = isAr;
+      // toggle button shows the *other* language
+      btn.textContent = isAr ? 'English' : 'العربية';
+      document.title = titles[l];
+      try { localStorage.setItem('tc_priv_lang', l); } catch (e) {}
+    }
+
+    var saved = null;
+    try { saved = localStorage.getItem('tc_priv_lang'); } catch (e) {}
+    var preferred = (navigator.language  '').toLowerCase().indexOf('ar') === 0 ? 'ar' : 'en';
+    setLang(saved === 'en'  saved === 'ar' ? saved : 'ar');
+    if (!saved && preferred === 'en') setLang('en');
+
+    btn.addEventListener('click', function () {
+      setLang(html.lang === 'ar' ? 'en' : 'ar');
+    });
+  })();
+</script>
+</body>
+</html>
